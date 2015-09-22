@@ -1,0 +1,10 @@
+D:\Git\LinkChecker\LinkChecker\bin\Release\LinkChecker.exe.config
+D:\Git\LinkChecker\LinkChecker\obj\Release\LinkChecker.csproj.ResolveComReference.cache
+D:\Git\LinkChecker\LinkChecker\bin\Release\LinkChecker.exe
+D:\Git\LinkChecker\LinkChecker\bin\Release\LinkChecker.pdb
+D:\Git\LinkChecker\LinkChecker\obj\Release\LinkChecker.csprojResolveAssemblyReference.cache
+D:\Git\LinkChecker\LinkChecker\obj\Release\LinkChecker.Form1.resources
+D:\Git\LinkChecker\LinkChecker\obj\Release\LinkChecker.Properties.Resources.resources
+D:\Git\LinkChecker\LinkChecker\obj\Release\LinkChecker.csproj.GenerateResource.Cache
+D:\Git\LinkChecker\LinkChecker\obj\Release\LinkChecker.exe
+D:\Git\LinkChecker\LinkChecker\obj\Release\LinkChecker.pdb

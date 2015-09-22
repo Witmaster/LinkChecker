@@ -19,9 +19,11 @@ namespace LinkChecker
 
         private void Go_Click(object sender, EventArgs e)
         {
+            Go.Enabled = false;
             if (openFileDialog1.ShowDialog() != DialogResult.OK) return;
             ExcelHandler excel = new ExcelHandler(openFileDialog1.FileName, URL.Text);
             excel.Parse();
+            Go.Enabled = true;
         }
     }
 }
