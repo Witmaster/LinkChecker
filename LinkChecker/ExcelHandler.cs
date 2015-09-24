@@ -35,7 +35,7 @@ namespace LinkChecker
             currentSheet = xlWorkBook.Worksheets.get_Item(1);
             Range range = currentSheet.UsedRange;
             string page = "";
-            for (int i = 1; i < range.Rows.Count; i++)
+            for (int i = 1; i < range.Rows.Count+1; i++)
             { 
                     using (WebClient clien = new WebClient())
                     {
@@ -46,11 +46,11 @@ namespace LinkChecker
                     catch (Exception) { }
                         if (page.Contains(linkurl))
                         {
-                            currentSheet.Cells[i, 2] = 1;
+                            currentSheet.Cells[i, 2] = "Ссылка есть";
                         }
                         else
                     {
-                            currentSheet.Cells[i, 2] = 0;
+                            currentSheet.Cells[i, 2] = "Ссылки нет";
                     }
                 }
             }
